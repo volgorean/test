@@ -19,6 +19,20 @@ var factorize = function(number) {
   return newNumber;
 };
 
+/*var factorize = function(number) {
+  number = Math.round(number);
+  var total = 1;
+  if (isNaN(number)) {
+    alert("only positive integers please");
+    return false;
+  } else if (number === 0) {
+    return 1;
+  } else if (number > 1) {
+      total = factorize((number -1));
+    };
+  return (total*number);
+};*/
+
 $(document).ready(function() {
   $("form#factorial").submit(function(event) {
     var userInput = $("#input").val();
