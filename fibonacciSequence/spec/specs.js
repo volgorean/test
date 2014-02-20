@@ -1,5 +1,5 @@
-describe('wordPigLatin', function() {
-  it(' adds ay for word that start with a vowel add ay to the end.', function() {
-    wordPigLatin("europe").should.equal("europeay");
+describe('fibonacci', function() {
+  it('takes a number and returns fibonacci sequence up to that number', function() {
+    fibonacci(7).should.equal(8);
   });   
 });
