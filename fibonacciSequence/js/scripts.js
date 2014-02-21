@@ -2,17 +2,18 @@
   var isEven = (number % 2);
   var a = 0;
   var b = 1;
-  for (var i = 0; i < number - 2; i = i + 2) {
+  for (var i = 0; i < number - 2; i += 2) {
     a = a+b
     b = b+a
   }
   if (!isEven) {
     return b;
-  }
+  } 
   else {
     return a;
   }
  };
+
 
 
 /*var fibonacci  = function(number) {
